@@ -34,7 +34,7 @@ console.log("Getting the Success message after click on the ");
 
 Then('verify the welcome page', async ()=> {
    Assertutil.assertequals(await commonutil.welcometextelement(PimPage.getwelcomepage()),"Welcome malli@123");
-   console.log("Verify welcome page ");
+   console.log("Verify Welcome page: Welcome chandra");
 
 });
 
