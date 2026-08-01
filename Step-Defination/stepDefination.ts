@@ -28,12 +28,15 @@ When('enter the password {string}', async (string)=> {
 
 When('click on login', async ()=> {
     await commonutil.clickonbutton(Login.getclickonlogin());
-
+console.log("Getting the Success message after click on the "); 
 });
 
 
 Then('verify the welcome page', async ()=> {
    Assertutil.assertequals(await commonutil.welcometextelement(PimPage.getwelcomepage()),"Welcome malli@123");
+   console.log("Verify welcome page "); 
+   console.log("Verify welcome Message "); 
+
 });
 
 When('click on logout', async ()=> {
