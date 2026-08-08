@@ -33,7 +33,7 @@ When('click on login', async ()=> {
 
 
 Then('verify the welcome page', async ()=> {
-   Assertutil.assertequals(await commonutil.welcometextelement(PimPage.getwelcomepage()),"Welcome malli@123");
+   Assertutil.assertequals(await commonutil.welcometextelement(PimPage.getwelcomepage()),"Welcome chandra");
 });
 
 When('click on logout', async ()=> {
